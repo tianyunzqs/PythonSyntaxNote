@@ -40,8 +40,8 @@ classInstance.static_method(1)  # 正确
 print()
 print("=====classObject call=====")
 # MethodClass.common_method(1)      # 错误
-MethodClass.classMethod(1)       # 正确
-MethodClass.staticMethod(1)      # 正确
+MethodClass.class_method(1)       # 正确
+MethodClass.static_method(1)      # 正确
 
 print()
 print("=====childClass call=====")
