@@ -18,7 +18,8 @@ class MethodClass(object):
     def class_method(cls, x):
         print("classMethod was called successful, x = %s. cls = %s" % (x, cls))
 
-    # 静态方法，是把函数嵌入到类中的一种方式，函数就属于类，同时表明函数不需要访问这个类。通过子类的继承覆盖，能更好的组织代码。
+    # 静态方法，是把函数嵌入到类中的一种方式，函数就属于类，同时表明函数不需要访问这个类。
+    # 通过子类的继承覆盖，能更好的组织代码。
     @staticmethod
     def static_method(x):
         print("staticMethod was called successful, x = %s" % x)
